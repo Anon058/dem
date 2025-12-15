@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2597f14e8984570ac971e22ce532442" Name="Diagram1">
+        <EntityTypeShape EntityType="demoModel.Categories" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.Manufacturers" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.OrderDetails" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.Orders" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.PickupPoints" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.Roless" Width="1.5" PointX="1.5" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.Shoes" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.Statuses" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.Suppliers" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.UnitMeasurements" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="demoModel.Users" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <AssociationConnector Association="demoModel.FK_Shoes_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_Shoes_Manufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_OrderDetails_Shoes" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_Orders_PickupPoints" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_Orders_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_Users_Roless" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_Shoes_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="demoModel.FK_Shoes_UnitMeasurements" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
