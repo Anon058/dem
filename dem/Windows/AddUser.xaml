@@ -15,8 +15,9 @@
         <ComboBox x:Name="CmbxRole" HorizontalAlignment="Left" Margin="162,154,0,0" VerticalAlignment="Top" Width="145"/>
         <Label Content="Дата последнего входа" HorizontalAlignment="Left" Margin="65,0,0,0" VerticalAlignment="Center"/>
         <DatePicker Name="DtpLastLoginDate" HorizontalAlignment="Left" Margin="207,0,0,0" VerticalAlignment="Center"/>
-        <CheckBox x:Name="ChkvxPasswordChanged" Content="Пароль изменен" HorizontalAlignment="Left" Margin="65,229,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="BtnAddUser" Content="Добавить" HorizontalAlignment="Left" Margin="162,280,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="ChkbxPasswordChanged" Content="Пароль изменен" HorizontalAlignment="Left" Margin="65,229,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="ChkbxBlocked" Content="Заблокирован" HorizontalAlignment="Left" Margin="65,253,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.524,2.153"/>
+        <Button x:Name="BtnAddUser" Content="Добавить" HorizontalAlignment="Left" Margin="162,280,0,0" VerticalAlignment="Top" Click="BtnAddUser_Click"/>
 
     </Grid>
 </Window>

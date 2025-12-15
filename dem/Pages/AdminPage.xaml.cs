@@ -37,9 +37,16 @@ namespace dem.Pages
         private void BtnEditUser_Click(object sender, RoutedEventArgs e)
         {
             Users user = DtGrid.SelectedItem as Users;
+            if(user != null)
+            {
             EditUser editUser = new EditUser();
             editUser.user = user;
             editUser.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Не выбран пользователь");
+            }
         }
 
         private void BtnDeleteUser_Click(object sender, RoutedEventArgs e)
